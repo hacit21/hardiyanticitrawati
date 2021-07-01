@@ -1,0 +1,38 @@
+
+.homepage {
+  position: relative;
+  background-color: var(--softblue);
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: -1;
+
+  .name {
+    position: fixed;
+    font-family: "Railway";
+    height: 18px;
+    top: 0;
+    right: 0;
+    margin: 24px;
+  }
+
+  .hello {
+    font-family: "Glass Antiqua";
+    font-size: 90px;
+    line-height: 100px;
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+
+  .based-on {
+    font-family: "Railway";
+    font-size: 90px;
+    line-height: 100px;
+    margin-left: 10%;
+    height: 100px;
+  }
+
+  .test {
+    height: 500px;
+  }
+}
